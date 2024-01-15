@@ -13,14 +13,14 @@ console.log(nome2)
 
 function palindroma(nome){
 
-    let b = nome.length-1;
-
     for(let i=0;i < nome.length;i++){
-        if(nome[i]==nome[b]){
-             if((nome[i]==nome[b]) && ((i==nome.length-1) && (b==0))){
+        if(nome[i]==nome[nome.length-1-i]){
+            
+             if((nome[i]==nome[nome.length-1-i]) && ((i==nome.length-1) && (nome.length-1-i==0))){
                  return "la parola è palindorma"
+                 
              }
-            b--
+             
         }else{
             return "la parola non è palindroma"
         }
