@@ -17,12 +17,11 @@ function palindroma(nome){
 
     for(let i=0;i < nome.length;i++){
         if(nome[i]==nome[b]){
-            if((nome[i]==nome[b]) && ((i==nome.length-1) && (b==0))){
-                return "la parola è palindorma"
-            }
+             if((nome[i]==nome[b]) && ((i==nome.length-1) && (b==0))){
+                 return "la parola è palindorma"
+             }
             b--
         }else{
-            i=nome.length
             return "la parola non è palindroma"
         }
 
