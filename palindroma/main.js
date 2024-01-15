@@ -6,9 +6,9 @@
 
 let check = Array.from(prompt("inserisci un nome e ti dirò se è palindroma o meno"))
 
-let nome2 = palindroma(check)
+let nome = palindroma(check)
 
-console.log(nome2)
+console.log(nome)
 
 
 function palindroma(nome){
