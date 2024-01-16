@@ -34,6 +34,7 @@ if(scelta==risultato){
 }else{
     console.log("hai perso")
 }
+
 console.log(risultato)
 
 
