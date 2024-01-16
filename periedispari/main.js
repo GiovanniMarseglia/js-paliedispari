@@ -6,9 +6,10 @@
 // Dichiariamo chi ha vinto.
 
 let numero=0
-
+let scelta
 for(let i=0;numero == 0 || numero > 5;i++){
  numero = +prompt("inserisci un numero da 1 a 5")
+ scelta = prompt("scegli pari o dispari")
 }
 
 
@@ -28,6 +29,11 @@ console.log(somma)
 
 
 let risultato = pariodispari(somma)
+if(scelta==risultato){
+    console.log("hai vinto")
+}else{
+    console.log("hai perso")
+}
 console.log(risultato)
 
 
